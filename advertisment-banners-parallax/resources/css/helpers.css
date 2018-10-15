@@ -1,0 +1,52 @@
+.b {
+    border: 1px solid black;
+}
+
+.b-t {
+    border-top: 1px solid black;
+}
+
+.b-b {
+    border-bottom: 1px solid black;
+}
+
+.b-l {
+    border-left: 1px solid black;
+}
+
+.b-r {
+    border-right: 1px solid black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.co1 {
+    background-color: #5680E9;
+}
+
+.co2 {
+    background-color: #84CEEB;
+}
+
+.co3 {
+    background-color: #5AB9EA;
+}
+
+.co4 {
+    background-color: #C1C8E4;
+}
+
+.co5 {
+    background-color: #8860D0
+}
+
+.font {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Concert One', cursive;
+}
