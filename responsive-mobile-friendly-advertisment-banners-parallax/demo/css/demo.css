@@ -55,6 +55,7 @@ section {
 
 .section_1 {
 	border-top: 10px solid #fff;
+	
 }
 
 .brd-top {
@@ -111,6 +112,7 @@ a.a--no-weight {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+
 }
 
 .container {
@@ -152,7 +154,9 @@ a.a--no-weight {
 	padding: 15px 20px;
 	text-align: center;
 }
-
+.section_11 {
+	background-color: #362F2D;
+}
 .parallax__container {
 	clip: rect(0, auto, auto, 0);
 	height: 100%;
