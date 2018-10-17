@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Advertisment Banners Parallax</title>
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
+</head>
+
+<body>
+	<section class="container container--full section_1">
+		<div class="content lol1">
+			<h1>Advertisment Banners Parallax</h1>
+			<p>Mobile Frinedly</p>
+			<p>by</p>
+			<h1>Riitech Solutions</h1>
+		</div>
+		<div class="parallax bg1"></div>
+	</section>
+	<section onclick="location.href='https://www.google.rs/';" style="cursor: pointer;" class="container container--small section_1 ">
+		<div class="parallax" data-parallax-image="img/bg2.jpg"></div>
+	</section>
+	<section onclick="location.href='https://www.youtube.com/';" style="cursor: pointer;" class="container container--big section_2 brd-top">
+		<div class="parallax" id="bg3"></div>
+	</section>
+	<section class="container container--full section_3">
+		<div class="content lol">
+			<h2>Riitech Solutions</h2>
+		</div>
+		<div class="parallax" data-parallax-image="img/bg4.jpg"></div>
+	</section>
+	<br>
+	<script src="../dist/universal-parallax.min.js"></script>
+	<script>
+		new universalParallax().init({
+			speed: 4
+		});
+	</script>
+</body>
+
+</html>
