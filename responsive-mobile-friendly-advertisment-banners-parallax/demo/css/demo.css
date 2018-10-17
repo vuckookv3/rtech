@@ -47,10 +47,12 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 }
+
 section {
 	border-left: 10px solid #fff;
 	border-right: 10px solid #fff;
 }
+
 .section_1 {
 	border-top: 10px solid #fff;
 }
@@ -58,10 +60,12 @@ section {
 .brd-top {
 	border-top: 10px solid #fff;
 }
+
 .section_3 {
 	border-bottom: 10px solid #fff;
 	border-top: 10px solid #fff;
 }
+
 p {
 	font-size: 1em;
 }
@@ -85,6 +89,7 @@ a {
 a.a--no-weight {
 	font-weight: 300;
 }
+
 .lol {
 	border-radius: 200px !important;
 	border: 3px solid rgb(134, 134, 134);
@@ -95,6 +100,7 @@ a.a--no-weight {
 	justify-content: center;
 	align-items: center;
 }
+
 .lol1 {
 	border-radius: 300px !important;
 	border: 3px solid rgb(252, 252, 252);
@@ -106,6 +112,7 @@ a.a--no-weight {
 	align-items: center;
 	flex-direction: column;
 }
+
 .container {
 	-webkit-align-items: center;
 	align-items: center;
